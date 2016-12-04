@@ -1,0 +1,26 @@
+{
+    "name": "kevinzheng/laravel-register-verification",
+    "description": "For Laravel to support register verification.",
+    "homepage": "https://github.com/kevinzheng/laravel-register-verification",
+    "support": {
+        "issues": "https://github.com/kevinzheng/laravel-register-verification/issues",
+        "source": "https://github.com/kevinzheng/laravel-register-verification"
+    },
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/auth": "5.3.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Zheng",
+            "email": "realkvz@gmail.com"
+        },
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "KVZ\\Laravel\\RegisterVerification\\": "src/"
+        }
+    }
+}
